@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.doubledai.homework2.MainActivity">
+    <item android:title="Reset"
+        android:id="@+id/action_reset"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Settings"
+        android:showAsAction="never" />
+    <item android:title="About"
+        android:id="@+id/action_about"
+        android:orderInCategory="101" />
+</menu>
